@@ -1,0 +1,94 @@
+   68  cd ..
+   69  ll
+   70  mkdir practice-git
+   71  ll
+   72  cd practice-git/
+   73  ll
+   74  git init 
+   75  ll
+   76  ls -lah
+   77  ls -lah .git/
+   78  git config --list
+   79  ll
+   80  ls -lah .git/
+   81  ls -lah
+   82  echo "My first line in project" > file.txt
+   83  ll
+   84  cat file.txt 
+   85  git status
+   86  git add file.txt 
+   87  git status
+   88  git diff --cached
+   89  git log 
+   90  git commit -m "My just another commit"
+   91  git log 
+   92  tig
+   93  git log
+   94  git show
+   95  echo "London is the capital of GB" >> file.txt
+   96  git diff
+   97  tig
+   98  git diff
+   99  git diff --cached
+  100   git diff --cached
+  101  git diff
+  102  tig
+  103  cat file.txt 
+  104  git commit -am "Capital added"
+  105  git log
+  106  tig
+  107  echo "Moscow is the capital of Russia" >> file.txt
+  108  git add file.txt
+  109  ll
+  110  cat file.txt 
+  111  git commit --amend
+  112  cat file.txt 
+  113  git log
+  114  tig
+  115  git log
+  116  git show
+  117  echo "Paris is the capital of France" >> file.txt 
+  118  cat file.txt 
+  119  git --help
+  120  man git
+  121  ll
+  122  tig
+  123  git log
+  124  git show
+  125  git diff
+  126  git diff --cached
+  127  git show
+  128  git show
+  129  git log
+  130  git show
+  131  tig
+  132  git status 
+  133  pwd
+  134  git status 
+  135  history 
+  136  git commit -am "add Paris"
+  137  git log
+  138  git log
+  139  git show
+  140  tig
+  141  git log
+  142  git log
+  143  git revert 2f879d5958abf2066484090f6d28faeca353fccf
+  144  git status 
+  145  cat file.txt
+  146  git show HEAD~1
+  147  cat file.txt
+  148  git show HEAD~1
+  149  git show HEAD
+  150  git show HEAD~1
+  151  vim file.txt 
+  152  cat file.txt 
+  153  git add file.txt
+  154  git revert --continue
+  155  git log
+  156  cat file.txt 
+  157* git 
+  158  git show
+  159  ll
+  160  history 
+  161  history >> practice-git_command_history.txt
