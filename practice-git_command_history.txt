@@ -92,3 +92,42 @@
   159  ll
   160  history 
   161  history >> practice-git_command_history.txt
+  162  vim practice-git_command_history.txt 
+  163  cat practice-git_command_history.txt 
+  164  cat practice-git_command_history.txt 
+  165  more practice-git_command_history.txt 
+  166  head.exe practice-git_command_history.txt 
+  167  git add .
+  168  tig
+  169  tig
+  170  git log
+  171  git status 
+  172  git -am "add practice-git_command_history.txt. for memorize"
+  173  history | grep am
+  174  git commit -am "add practice-git_command_history.txt. for memorize"
+  175  tig
+  176  git push
+  177  history | grep push
+  178  git push
+  179  git push practice-git
+  180  ll
+  181* git remote add origin https://github.com/AlexandercheOTUS
+  182  echo "# practice-git" >> README.md
+  183  ll
+  184  git add .
+  185  tig
+  186  git commit -am "add README.md"
+  187  git log
+  188  git remote add origin https://github.com/AlexandercheOTUS/practice-git.git
+  189  git push -u origin master
+  190  tig
+  191  git remote add origin github.com:AlexandercheOTUS/practice-git.git
+  192  git push -u origin master
+  193  git push -u origin master
+  194  git remote add origin https://github.com/AlexandercheOTUS/practice-git.git
+  195  git push -u origin main
+  196  git push -u origin master
+  197  history 
+  198  ll
+  199  ll -h
+  200  history > practice-git_command_history.txt
